@@ -1,0 +1,20 @@
+body{
+	background-color: gray;
+}
+h1{
+	font-size: 30px;
+	color: skyblue;
+}
+h2{
+	font-size: 20px;
+	color: darksalmon;
+}
+span{
+	color: violet;
+}
+.big{
+	font-size: 60px;
+}
+.uppercase{
+	text-transform: uppercase;
+}
