@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+
+  	font-family: "Press Start 2P", system-ui;
+  	font-weight: 400;
+  	font-style: normal;
+  	font-size: 20px;
+  	line-height: 30px;
+
+
+}
+h1, h2{
+	font-family: "Press Start 2P", system-ui;
+}
+header {
+	background-color: pink;
+	text-align: center;
+	padding: 50px;
+}
+header img{
+	
+	width: 300px; /* Set the width of the image */
+    height: 150px; /* Set the height of the image to create a square */
+    object-fit: cover; /* Ensure the image covers the entire container */
+    //clip-path: inset(0px 34px 0px 34px); /* Set the clip-path to create a square */
+    //border: 10px solid white;
+	border-radius: 150px;
+
+}
+header h1{
+	color: white;
+	text-align: center;
+	line-height: 60px;
+
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 60px;
+
+
+}
+main img{
+	max-width: 100%;
+}
+h2{
+
+	font-size: 35px;
+	color: #FA888A;
+	margin: 60px 0 20px;
+}
+a {
+	color: #FA888A;
+}
+a:hover {
+	background-color: pink;
+	color: white;
+}
+footer {
+	background-color: pink;
+	color: white;
+	
+	text-align: center;
+	padding: 20px 60px;
+}
